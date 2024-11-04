@@ -35,7 +35,7 @@ function Hero() {
                         <img src={gitHubIcon} alt="GitHub icon" />
                     </a>
                 </span>
-                <p>
+                <p className={styles.description}>
                     Something you are passionate about and that motivates you.
                 </p>
                 <a href={CV} target="_blank">
