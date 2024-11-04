@@ -5,6 +5,7 @@ const ThemeContext = createContext();
 export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({children}) => {
+    // data-theme="light" (localStorage)
     const [theme, setTheme] = useState(() => localStorage.getItem("theme") || "light");
 
     useEffect(() => {
