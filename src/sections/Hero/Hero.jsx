@@ -1,13 +1,22 @@
 import styles from "./HeroStyles.module.css";
 import heroImg from "../../assets/hero-img.png";
-import themeIcon from "../../assets/sun.svg";
-import linkedInIcon from "../../assets/linkedin-light.svg";
-import gitHubIcon from "../../assets/github-light.svg";
+import sun from "../../assets/sun.svg";
+import moon from "../../assets/moon.svg";
+import linkedInLight from "../../assets/linkedin-light.svg";
+import linkedInDark from "../../assets/linkedin-dark.svg";
+import gitHubLight from "../../assets/github-light.svg";
+import gitHubDark from "../../assets/github-dark.svg";
 import CV from "../../assets/cv.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
+    // theme toggler
     const { theme, toggleTheme } = useTheme();
+
+    // icons for light and dark theme
+    const themeIcon = theme === "light" ? sun : moon;
+    const linkedInIcon = theme === "light" ? linkedInLight : linkedInDark;
+    const gitHubIcon = theme === "light" ? gitHubLight : gitHubDark;
 
     return (
         <section id="hero" className={styles.container}>
