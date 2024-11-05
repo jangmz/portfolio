@@ -21,11 +21,11 @@ function Skills() {
         </div>
         <hr />
         <div className={styles.skillList}>
+            <SkillList skill="Git" />
+            <SkillList skill="SQL(PostgreSQL, MySQL)" />
             <SkillList skill="Webpack" />
             <SkillList skill="Vite" />
-            <SkillList skill="Git" />
         </div>
-        <hr />
     </section>
   )
 };
