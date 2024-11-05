@@ -1,12 +1,22 @@
-import React from 'react';
+import styles from "./ProjectsStyles.module.css";
 
-function ProjectCard({src, link, alt, title, desc}) {
+function ProjectCard({src, linkCode, linkDemo, alt, title, desc}) {
   return (
-    <a href={link} target="_blank">
-        <img src={src} alt={alt} className="hover" />
-        <h3>{title}</h3>
-        <p>{desc}</p>
-    </a>
+    <div className={styles.card}>
+      <h3>{title}</h3>
+      <a href={linkDemo} target="_blank">
+        <img src={src} alt={alt} />
+      </a>      
+      <div className={styles.cardBtns}>
+        <a href={linkCode} target="_blank">
+          <button className="hover">Code</button>
+        </a>
+        <a href={linkDemo} target="_blank">
+          <button className="hover">Demo</button>
+        </a>
+      </div>
+      <p>{desc}</p>
+    </div>
   )
 };
 
