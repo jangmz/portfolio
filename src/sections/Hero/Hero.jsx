@@ -21,22 +21,22 @@ function Hero() {
     return (
         <section id="hero" className={styles.container}>
             <div className={styles.colorModeContainer}>
-                <img src={heroImg} alt="Profile picture of Jan Jankovič" className={styles.hero}/>
+                <img src={heroImg} alt="Profile picture" className={styles.hero}/>
                 <img src={themeIcon} alt="Color mode icon" className={styles.colorMode} onClick={toggleTheme}/>
             </div>
             <div className={styles.info}>
-                <h1>First <br /> Last</h1>
-                <h2>Full Stack Developer</h2>
+                <h1>Jan <br /> Jankovič</h1>
+                <h2>Full Stack Web Developer</h2>
                 <span>
-                    <a href="https://linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/jan-jankovi%C4%8D-03429b247/" target="_blank">
                         <img src={linkedInIcon} alt="LinkedIn icon" />
                     </a>
-                    <a href="https://github.com/" target="_blank">
+                    <a href="https://github.com/jangmz" target="_blank">
                         <img src={gitHubIcon} alt="GitHub icon" />
                     </a>
                 </span>
                 <p className={styles.description}>
-                    Something you are passionate about and that motivates you.
+                    Driven by a deep passion for crafting seamless and engaging web applications.
                 </p>
                 <a href={CV} target="_blank">
                     <button className="hover">View CV</button>
