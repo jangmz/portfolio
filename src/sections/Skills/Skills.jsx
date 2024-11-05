@@ -17,6 +17,7 @@ function Skills() {
         <div className={styles.skillList}>
             <SkillList skill="React" />
             <SkillList skill="Express" />
+            <SkillList skill="Flask" />
             <SkillList skill="Bootstrap" />
         </div>
         <hr />
