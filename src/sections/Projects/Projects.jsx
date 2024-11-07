@@ -1,7 +1,7 @@
 import styles from "./ProjectsStyles.module.css";
-import inventoryAppLogo from "../../assets/inventory.png";
-import onlineShopLogo from "../../assets/online-store.png";
-import clubhouseLogo from "../../assets/clubhouse.png";
+import inventoryAppLogo from "../../assets/inventory-2.png";
+import onlineShopLogo from "../../assets/online-store-2.png";
+import clubhouseLogo from "../../assets/clubhouse-2.png";
 import ProjectCard from "./ProjectCard";
 
 function Projects() {
