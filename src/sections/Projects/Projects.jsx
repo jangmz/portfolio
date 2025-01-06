@@ -14,17 +14,17 @@ function Projects() {
                 src={skyvaultApp}
                 alt="SkyVault app"
                 linkCode="https://github.com/jangmz/SkyVault"
-                linkDemo="https://skyvault-production.up.railway.app"
+                linkDemo="https://skyvault-ppfk.onrender.com/sky-vault"
                 title="SkyVault Storage"
-                desc="Cloud Storage"
+                desc="Cloud storage made with Express, Prisma, PostgreSQL, Bootstrap"
             />
             <ProjectCard 
                 src={inventoryAppLogo}
                 alt="Inventory app"
                 linkCode="https://github.com/jangmz/school-inventory-app"
-                linkDemo="https://school-inventory-app.up.railway.app/"
-                title="School tech inventory app"
-                desc="Inventory tracking app"
+                linkDemo="https://inventory-app-qvo9.onrender.com"
+                title="Inventory App"
+                desc="Inventory tracking app made with Express and PostgreSQL"
             />
             <ProjectCard 
                 src={onlineShopLogo}
@@ -33,14 +33,6 @@ function Projects() {
                 linkDemo="https://infinity-online-shop.netlify.app/"
                 title="Online Store"
                 desc="Online store app"
-            />
-            <ProjectCard 
-                src={clubhouseLogo}
-                alt="Clubhouse"
-                linkCode="https://github.com/jangmz/members-only"
-                linkDemo="https://members-only-clubhouse23.up.railway.app"
-                title="Members only Clubhouse"
-                desc="Web app with user authentication and authorization"
             />
         </div>
     </section>
