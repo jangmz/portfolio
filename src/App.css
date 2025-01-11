@@ -76,6 +76,12 @@ p {
     cursor: pointer;
 }
 
+.noteParagraph {
+    font-family: "Roboto Mono", monospace;
+    width: 90%;
+    margin: 0 auto 60px auto;
+}
+
 @media (width >= 800px) {
     #root {
         gap:100px;
@@ -110,5 +116,11 @@ p {
 
     .sectionTitle {
         margin-bottom: 75px;
+    }
+
+    .noteParagraph {
+        font-family: "Roboto Mono", monospace;
+        width: 70%;
+        margin: 0 auto 75px auto;
     }
 }
