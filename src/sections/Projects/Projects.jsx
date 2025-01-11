@@ -10,6 +10,8 @@ function Projects() {
   return (
     <section id="projects" className={styles.container} >
         <h1 className="sectionTitle">Projects</h1>
+        <p><strong>Please Note:</strong>
+        Some apps may take up to a minute to start as they are hosted on a service that puts them to sleep during periods of inactivity. If an app doesn't work immediately, please wait a moment and try again. Thank you for your patience!</p>
         <div className={styles.projectsContainer}>
             <ProjectCard 
                 src={blogApp}
