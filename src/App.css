@@ -80,6 +80,7 @@ p {
     font-family: "Roboto Mono", monospace;
     width: 90%;
     margin: 0 auto 60px auto;
+    color: var(--text-color);
 }
 
 @media (width >= 800px) {
