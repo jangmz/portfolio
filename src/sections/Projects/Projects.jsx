@@ -25,7 +25,7 @@ function Projects() {
                 src={skyvaultApp}
                 alt="SkyVault app"
                 linkCode="https://github.com/jangmz/SkyVault"
-                linkDemo="https://skyvault-ppfk.onrender.com/sky-vault"
+                linkDemo="https://skyvault-ppfk.onrender.com"
                 title="SkyVault Storage"
                 desc="Cloud storage made with Express, Prisma, PostgreSQL, Bootstrap"
             />
