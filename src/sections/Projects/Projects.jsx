@@ -3,6 +3,7 @@ import inventoryAppLogo from "../../assets/inventory-2.png";
 import onlineShopLogo from "../../assets/online-store-2.png";
 import clubhouseLogo from "../../assets/clubhouse-2.png";
 import skyvaultApp from "../../assets/sky-vault.png";
+import blogApp from "../../assets/blog.png";
 import ProjectCard from "./ProjectCard";
 
 function Projects() {
@@ -10,6 +11,14 @@ function Projects() {
     <section id="projects" className={styles.container} >
         <h1 className="sectionTitle">Projects</h1>
         <div className={styles.projectsContainer}>
+            <ProjectCard 
+                src={blogApp}
+                alt="Blog app"
+                linkCode={"https://github.com/jangmz/blog-user-fe"}
+                linkDemo={"https://blog-app23.netlify.app/"}
+                title={"Full Stack Blog App"}
+                desc={"App made with React, Express, Prisma, PostgreSQL, Bootstrap"}
+            />
             <ProjectCard 
                 src={skyvaultApp}
                 alt="SkyVault app"
