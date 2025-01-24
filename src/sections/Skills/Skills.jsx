@@ -11,6 +11,7 @@ function Skills() {
             <SkillList skill="CSS"  />
             <SkillList skill="JavaScript" />
             <SkillList skill="Node" />
+            <SkillList skill="C#" />
             <SkillList skill="Python" />
         </div>
         <hr />
