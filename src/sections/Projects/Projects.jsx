@@ -4,6 +4,7 @@ import onlineShopLogo from "../../assets/online-store-2.png";
 import clubhouseLogo from "../../assets/clubhouse-2.png";
 import skyvaultApp from "../../assets/sky-vault.png";
 import blogApp from "../../assets/blog.png";
+import flowTrackApp from "../../assets/flow-track.png";
 import ProjectCard from "./ProjectCard";
 
 function Projects() {
@@ -17,28 +18,20 @@ function Projects() {
         </div>
         <div className={styles.projectsContainer}>
             <ProjectCard 
+                src={flowTrackApp}
+                alt="Inventory App"
+                linkCode={"https://github.com/jangmz/FlowTrack"}
+                linkDemo={"https://flow-track.netlify.app/"}
+                title={"Full Stack Inventory App"}
+                desc={"App made with React, Express, Prisma, PostgreSQL, Bootstrap"}
+            />
+            <ProjectCard 
                 src={blogApp}
                 alt="Blog app"
                 linkCode={"https://github.com/jangmz/blog-user-fe"}
                 linkDemo={"https://blog-app23.netlify.app/"}
                 title={"Full Stack Blog App"}
                 desc={"App made with React, Express, Prisma, PostgreSQL, Bootstrap"}
-            />
-            <ProjectCard 
-                src={skyvaultApp}
-                alt="SkyVault app"
-                linkCode="https://github.com/jangmz/SkyVault"
-                linkDemo="https://skyvault-ppfk.onrender.com"
-                title="SkyVault Storage"
-                desc="Cloud storage made with Express, Prisma, PostgreSQL, Bootstrap"
-            />
-            <ProjectCard 
-                src={inventoryAppLogo}
-                alt="Inventory app"
-                linkCode="https://github.com/jangmz/school-inventory-app"
-                linkDemo="https://inventory-app-qvo9.onrender.com"
-                title="Inventory App"
-                desc="Inventory tracking app made with Express and PostgreSQL"
             />
             <ProjectCard 
                 src={onlineShopLogo}
