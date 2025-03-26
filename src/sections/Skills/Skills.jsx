@@ -16,6 +16,7 @@ function Skills() {
         </div>
         <hr />
         <div className={styles.skillList}>
+            <SkillList skill="NextJS" />
             <SkillList skill="React" />
             <SkillList skill="Express" />
             <SkillList skill="Flask" />
@@ -23,8 +24,9 @@ function Skills() {
         </div>
         <hr />
         <div className={styles.skillList}>
-            <SkillList skill="Git" />
             <SkillList skill="SQL(PostgreSQL, MySQL)" />
+            <SkillList skill="MongoDB" />
+            <SkillList skill="Git" />
             <SkillList skill="Webpack" />
             <SkillList skill="Vite" />
         </div>
