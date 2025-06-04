@@ -1,11 +1,9 @@
 import styles from "./ProjectsStyles.module.css";
-import inventoryAppLogo from "../../assets/inventory-2.png";
 import onlineShopLogo from "../../assets/online-store-2.png";
-import clubhouseLogo from "../../assets/clubhouse-2.png";
-import skyvaultApp from "../../assets/sky-vault.png";
 import blogApp from "../../assets/blog.png";
 import flowTrackApp from "../../assets/flow-track.png";
 import ProjectCard from "./ProjectCard";
+import BillioApp from "../../assets/billio_dash.png";
 
 function Projects() {
   return (
@@ -18,20 +16,28 @@ function Projects() {
         </div>
         <div className={styles.projectsContainer}>
             <ProjectCard 
+                src={BillioApp}
+                alt="Billio App Screenshot"
+                linkCode={"https://github.com/jangmz/billio"}
+                linkDemo={"https://www.billio-app.com"}
+                title={"Billio - Housing Expense Management App"}
+                desc={"Full stack expense tracking application made with NextJS, MongoDB, DaisyUI, Tailwind"}
+            />
+            <ProjectCard 
                 src={flowTrackApp}
                 alt="Inventory App"
                 linkCode={"https://github.com/jangmz/FlowTrack"}
                 linkDemo={"https://flow-track.netlify.app/"}
-                title={"Full Stack Inventory App"}
-                desc={"App made with React, Express, Prisma, PostgreSQL, Bootstrap"}
+                title={"Inventory App"}
+                desc={"Full stack inventory application made with React, Express, Prisma, PostgreSQL, Bootstrap"}
             />
             <ProjectCard 
                 src={blogApp}
                 alt="Blog app"
                 linkCode={"https://github.com/jangmz/blog-user-fe"}
                 linkDemo={"https://blog-app23.netlify.app/"}
-                title={"Full Stack Blog App"}
-                desc={"App made with React, Express, Prisma, PostgreSQL, Bootstrap"}
+                title={"Blog App"}
+                desc={"Full stack blog application made with React, Express, Prisma, PostgreSQL, Bootstrap"}
             />
             <ProjectCard 
                 src={onlineShopLogo}
@@ -39,7 +45,7 @@ function Projects() {
                 linkCode="https://github.com/jangmz/infinity-online-shop"
                 linkDemo="https://infinity-online-shop.netlify.app/"
                 title="Online Store"
-                desc="Online store app"
+                desc="Front end made with React"
             />
         </div>
     </section>
