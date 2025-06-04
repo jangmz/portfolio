@@ -11,7 +11,7 @@ function Projects() {
         <h1 className="sectionTitle">Projects</h1>
         <div className="noteParagraph">
             <strong>Please Note:</strong>
-            Some apps may take up to a minute to start as they are hosted on a service that puts them to sleep during periods of inactivity. If an app doesn't work immediately, please wait 1 min and try again. Thank you for your patience!
+            Some apps may take up to a minute to start as they are hosted on a service that puts them to sleep during periods of inactivity. If an app doesnt work immediately, please wait 1 min and try again. Thank you for your patience!
             
         </div>
         <div className={styles.projectsContainer}>
