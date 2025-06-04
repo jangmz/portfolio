@@ -25,10 +25,10 @@ function Projects() {
             />
             <ProjectCard 
                 src={flowTrackApp}
-                alt="FlowTrack - Inventory App"
+                alt="FlowTrack screenshot"
                 linkCode={"https://github.com/jangmz/FlowTrack"}
                 linkDemo={"https://flow-track.netlify.app/"}
-                title={"Inventory App"}
+                title={"FlowTrack - Inventory App"}
                 desc={"Full stack inventory application made with React, Express, Prisma, PostgreSQL, Bootstrap"}
             />
             <ProjectCard 
